@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/actionAdd"
+        android:enabled="true"
+        android:icon="@android:drawable/ic_menu_add"
+        android:title="ActionAdd"
+        android:visible="true"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/actionSignOut"
+        android:enabled="true"
+        android:icon="@android:drawable/ic_media_previous"
+        android:title="Sign Out"
+        android:visible="true"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/magetoText"
+        android:icon="@drawable/scanner"
+        android:title="ImageToText"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/Translator"
+        android:icon="@drawable/translate"
+        android:title="Translator"
+        app:showAsAction="always" />
+    <item android:title="Ocr"
+        android:id="@+id/Ocr"/>
+    <item android:title="Or code"
+        android:id="@+id/Or"/>
+    <item android:title="face"
+        android:id="@+id/face"/>
+    <item android:title="fcm"
+        android:id="@+id/fcm"/>
+</menu>
