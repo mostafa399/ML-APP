@@ -18,7 +18,9 @@
         android:theme="@style/Theme.NewsApp"
         tools:targetApi="33"
       >
-
+        <activity
+            android:name=".fcm.Fcm"
+            android:exported="false" />
         <activity
             android:name=".qrcode.FaceDetectionActivity"
             android:exported="false" />

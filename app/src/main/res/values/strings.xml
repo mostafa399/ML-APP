@@ -2,4 +2,7 @@
     <string name="app_name">NewsApp</string>
     <string name="visit_link">visit_link</string>
     <string name="default_notification_channel_id">notification_channel</string>
+    <string name="Fcm_Message">FCM_Message</string>
+    <string name="default_notification_channel_name">default_notification_channel_name</string>
+    <string name="message_token_fmt">FCM Registeration Token :%s</string>
 </resources>

@@ -108,7 +108,7 @@ import util.UserInfo;
                  }break;
              case R.id.fcm:
                  if (user!=null&&firebaseAuth!=null){
-                     startActivity(new Intent(JournalListActivity.this, Fcm.class));
+                     startActivity(new Intent(JournalListActivity.this,Fcm.class));
                  }break;
 
          }
